@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sign Up</title>
+<script>
+        
+function abc()
+        
+{
+    
+
+
+   var c = document.getElementById("l").value;         
+
+if(c.length==10)
+            {
+              window.open("menupage1.html");    
+           confirm("Do you want this site to remember this information");
+          
+            }
+else
+{
+alert("please enter valid information");
+
+}   
+   
+    }
+    
+    
+</script>
+
+
+
+
+    
+<style>
+    fieldset { 
+    display: block;
+    -moz-border-radius:8px;
+    border-radius:10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px groove ;
+    }
+
+
+body {
+    
+    background-image: url("background_index02.jpg");
+    font-size:20;
+
+    height: 100%; 
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+</style>
+
+
+
+
+
+</head>
+<body  font-color="red">
+<fieldset>
+    <legend><center style="font-size: 50px;color: darkcyan;"><h1>Sign Up</h1></center></legend>
+
+<form >
+<table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+<tr>
+    <td align='left'>First Name:</td>
+    <td><input type='text' required ></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='left'>Sur Name:</td>
+    <td><input type='text' required></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='left'>Date Of Birth:</td>
+    <td><input type='Date' required></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='left'>State:</td>
+    <td><input type='text' required></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='left'>Phone:</td>
+    <td><input type='number' id="l" required></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='left' >Email:</td>
+    <td><input  type='Email'  required></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td colspan="2" align='center'><br><br><br><input type='submit' value="Register" onclick="abc()" ></td>
+</tr>
+</table>
+</form>
+
+</fieldset>
+</body>
+</html>

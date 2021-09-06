@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-In</title>
+	<style>
+		.loginbox
+		{
+			background-color: navy;
+			width: 350px;
+			height: 450px;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			padding-top: 70px;
+			padding-left: 80px;
+		}
+		.avatar
+		{
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			top: -50px;
+			left: 120px;
+			position: absolute;
+		}
+		.loginbox input[type="text"]
+		{
+			border: none;
+			border-bottom: 1px solid white;
+			background: transparent;
+			color: mintcream;
+			height: 30px;
+		}
+		.pass
+		{
+			border: none;
+			border-bottom: 1px solid white;
+			background: transparent;
+			color: white;
+			height: 30px;
+		}
+		p
+		{
+			color: aquamarine;
+			font-weight: bold;
+		}
+		button{
+			border-radius: 20px;
+			border: none;
+			padding: 5px 12px;
+			font-size: 15px;
+			font-weight: bold;
+			background-color: transparent;
+			color: white;
+					}
+	</style>
+
+
+
+
+
+<script>
+		
+function abc()
+		
+{
+			
+			
+confirm("Do you want this site to remember this password");
+			window.open("menupage1.html");
+	
+}
+	
+</script>
+
+
+</head>
+<body>
+	<
+<div class="loginbox">
+	<img class="avatar" src="img/avtar.jpg">
+	<form >
+		<p> Username : </p>
+		<input type="text" placeholder="Enter Username" required><br>
+		<p>Passsword : </p>
+		<input type="password" class="pass" id="a" placeholder="Enter Passsword" required><br><br><br>
+
+
+		<a href="menupage1.html"><input type="submit" onclick="abc()" value="Log In"></a>
+</form>
+<center><pre style="color: white;">__________or__________</pre><center>
+<center><a href="signup.html" style="color: white;"><button>Create New Account</button></a></center>	
+</div>
+</body>
+</html>

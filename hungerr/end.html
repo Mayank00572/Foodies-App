@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Billing Section</title>
+	<script>
+	function bc()
+    {
+        var a = document.getElementById("l").value;
+        var b = document.getElementById("k").value;
+            if(a.length==10)
+            {
+              if(b.length==16)
+            {
+              window.open('thank.html');
+            }
+
+            else
+            {
+
+              alert("please enter a valid information");
+
+			}  
+} 
+  else
+            {
+
+              alert("please enter a valid information");
+
+			}  
+    
+
+    }
+
+
+    </script>
+</head>
+<body><center>
+<h1>Please fill the following information</h1>
+</center>
+<form>
+	<table>
+		<tr>
+			<td>
+				Mobile Number :
+			</td>
+			<td>
+				<input type="number" placeholder="Please enter your number" id="l" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Aadhar Number:
+			</td>
+			<td>
+				<input type="number" placeholder=" Aadhar number" id="k" required>
+			</td>
+		</tr>
+
+<tr><td><button onclick="bc()">EXIT</button></td></tr>
+	</table> 
+</form>
+
+</body>
+</html>

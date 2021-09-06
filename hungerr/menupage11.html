@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+  <title>FAST FOOD</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+      <link rel="stylesheet" href="css/menupage1.css">
+
+  <style>
+#inp{
+			border-style: none;
+			background-color: transparent;
+			margin-left: 55px;
+		}
+</style>
+</head>
+
+<body>
+  	<a class="navbar-brand" href="#">
+          <img style="height: 100px; width: 175px" src="img/logo_chitkara_black.png">
+        </a><br><br>
+
+    <nav class="navbar" style="background-color: transparent;margin-left: 100px;">
+        <a href="main.html"><input type="button" name="Home" value="Home"></a>
+        <a href="login.html"><input type="button" name="Login" value="Login"></a>
+        <a href="about.html"><input type="button" name="About" value="About"></a>
+      
+    </div>
+</nav>
+  <h1><span class="badge badge-secondary">FAST FOOD</span></h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+  
+
+  <div class="product">
+    <div class="product-image">
+      <img src="img/samosa.jpeg">
+    </div>
+    <div class="product-details">
+      <div class="product-title" style="font-size: 30px;margin-top:40px; margin-left: 80px;">Samosa</div>
+          </div>
+    <div class="product-price">20</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">20</div>
+  </div>
+ 
+
+   
+  <div class="product">
+    <div class="product-image">
+      <img src="img/burger.jpeg" width="100px">
+    </div>
+    <div class="product-details">
+      <div class="product-title" style="font-size: 30px;margin-top:40px; margin-left: 80px;">Burger</div>
+          </div>
+    <div class="product-price">50</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">50</div>
+  </div>
+ 
+  <div class="product">
+    <div class="product-image">
+      <img src="img/manchurian.jpeg">
+    </div>
+    <div class="product-details">
+      <div class="product-title" style="font-size: 30px;margin-top:40px; margin-left: 80px;">Manchurian</div>
+          </div>
+    <div class="product-price">100</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">100</div>
+  </div>
+ 
+  <div class="product">
+    <div class="product-image">
+      <img src="img/pasta.jpeg">
+    </div>
+    <div class="product-details">
+      <div class="product-title" style="font-size: 30px;margin-top:40px; margin-left: 80px;">Pasta</div>
+          </div>
+    <div class="product-price">80</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">80</div>
+  </div>
+ 
+  <div class="product">
+    <div class="product-image">
+      <img src="img/cheese.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title" style="font-size: 30px;margin-top:40px; margin-left: 80px;">Cheeese Chilly<sub><font size=4px></font></sub></div>
+          </div>
+    <div class="product-price">160</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">160</div>
+  </div>
+ 
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">410.00</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (18%)</label>
+      <div class="totals-value" id="cart-tax">73.40</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">50.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">483.80</div>
+    </div>
+  </div>
+      
+     <a href="end.html"> <button class="checkout">Checkout</button></a>
+
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/school_cart.js"></script>
+
+
+  <a href="menupage2.html"><input type="button" name="Next Page" value="Next Page" style="color: darkcyan; align: right;"></a>
+
+
+</body>
+</html>
